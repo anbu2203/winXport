@@ -60,5 +60,5 @@ The wiring of this project was done carefully to ensure safe and proper operatio
 
 ## BOM ##
 final stage of the project, a complete Bill of Materials (BOM) was prepared, listing all the components used along with their specifications and approximate cost. The BOM helped in keeping track of the required parts and ensured that the project stayed within the given budget.
-![winXport/blob/main/winXport%20bom.png](main/winXport%20bom.png)
-https://github.com/anbu2203/winXport/blob/main/winXport%20bom.png
+
+![main](https://github.com/anbu2203/winXport/blob/main/winXport%20bom.png)
