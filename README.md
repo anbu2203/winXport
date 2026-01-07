@@ -50,7 +50,7 @@ This project successfully demonstrates the construction of a DIY portable Window
 ## 3D case ##
 I buit a custom made case for the tab:
 ![BACK](README-IMAGES-winXport/BACK.png)
-![FRONT](README-IMAGES-winXport/FRONT.png)
+![BODY](README-IMAGES-winXport/BODY.png)
 ![FULL](README-IMAGES-winXport/FULL.png)
 This project was designed to plan the physical layout and arrangement of all components before actual assembly. It includes the placement of the LattePanda board, 7-inch display, battery pack, BMS, and buck converter inside the enclosure. The CAD design helps in understanding the size, spacing, and alignment of components, ensuring proper fit, ventilation, and accessibility to ports. Since no PCB is used in this project, the CAD file mainly focuses on the mechanical design of the enclosure and mounting points rather than circuit routing.
 
@@ -60,4 +60,5 @@ The wiring of this project was done carefully to ensure safe and proper operatio
 
 ## BOM ##
 final stage of the project, a complete Bill of Materials (BOM) was prepared, listing all the components used along with their specifications and approximate cost. The BOM helped in keeping track of the required parts and ensured that the project stayed within the given budget.
-![main](main/winXport%20bom.png)
+![winXport/blob/main/winXport%20bom.png](main/winXport%20bom.png)
+https://github.com/anbu2203/winXport/blob/main/winXport%20bom.png
