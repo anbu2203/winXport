@@ -12,6 +12,9 @@ The project focuses on hardware integration, power electronics, and system-level
 - To demonstrate a real-world embedded computing system
 - To avoid PCB fabrication by using modular hardware
 
+## Reason for Not Using a Custom PCB: ##
+- A custom PCB was not designed for this project because the LattePanda board itself is a highly complex and compact single-board computer that requires industrial-level experience to design and manufacture. It involves high-speed signals, multi-layer PCB routing, power management, and strict layout rules that are beyond hobby-level PCB design. Designing a custom PCB for such a system would require advanced tools, professional manufacturing facilities, and expert knowledge, which is not suitable for a school or hobby project. Therefore, using the ready-made LattePanda board is the most practical and safe approach, allowing the project to focus on system integration and learning rather than industrial PCB development.
+ 
  ## wiring config ##
  | Connection                   | Description             |
 | ---------------------------- | ----------------------- |
