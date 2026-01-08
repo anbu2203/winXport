@@ -15,6 +15,12 @@ The project focuses on hardware integration, power electronics, and system-level
 ## Reason for Not Using a Custom PCB: ##
 - A custom PCB was not designed for this project because the LattePanda board itself is a highly complex and compact single-board computer that requires industrial-level experience to design and manufacture. It involves high-speed signals, multi-layer PCB routing, power management, and strict layout rules that are beyond hobby-level PCB design. Designing a custom PCB for such a system would require advanced tools, professional manufacturing facilities, and expert knowledge, which is not suitable for a hobby project. Therefore, using the ready-made LattePanda board is the most practical and safe approach, allowing the project to focus on system integration and learning rather than industrial PCB development.
 
+## Challenges of Building from Scratch ##
+- Component Integration: Modern components like CPUs and RAM use high-density Ball Grid Array (BGA) packages, which require specialized machinery (like pick-and-place systems and reflow ovens) for assembly, not hand-soldering.
+- High-Speed Design: Routing high-speed interfaces like USB 3.0, HDMI, and PCIe requires precise impedance control, trace width/spacing uniformity, and careful layer stackup to ensure signal integrity and avoid data corruption or connection issues.
+- Power Management: Designing a stable and efficient power delivery network with multiple voltage rails (e.g., 5V, 3.3V, 1.0V) and proper decoupling is a complex task.
+- Cost vs. Mass Production: Even if you could build one, the cost of prototyping a single unit with professional fabrication houses and buying all the necessary tools and components would be vastly more expensive than simply buying a pre-made LattePanda. 
+
  ## wiring config ##
  | Connection                   | Description             |
 | ---------------------------- | ----------------------- |
